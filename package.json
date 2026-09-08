@@ -1,0 +1,9 @@
+apparel-research-app/
+├── package.json
+└── app/
+    ├── api/
+    │   └── upload/
+    │       └── route.js
+    ├── page.js          (日本側 PC画面: https://〇〇.vercel.app/)
+    └── cn/
+        └── page.js      (中国側 スマホ画面: https://〇〇.vercel.app/cn)
