@@ -1,9 +1,16 @@
-apparel-research-app/
-├── package.json
-└── app/
-    ├── api/
-    │   └── upload/
-    │       └── route.js
-    ├── page.js          (日本側 PC画面: https://〇〇.vercel.app/)
-    └── cn/
-        └── page.js      (中国側 スマホ画面: https://〇〇.vercel.app/cn)
+{
+  "name": "apparel-research-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.23.0",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
